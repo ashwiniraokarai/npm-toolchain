@@ -6,7 +6,7 @@
   "description": "experimenting with package management with vite an example dependency (package)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "vitest",
     "dev": "vite",
     "build": "vite build",
     "format": "prettier --write ."
@@ -16,10 +16,12 @@
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.1",
     "prettier": "^3.3.3",
-    "vite": "^5.3.3"
+    "vite": "^5.3.3",
+    "vitest": "^2.0.5"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.51.23",
+    "node-fetch": "^3.3.2",
     "plotly.js-dist": "^2.33.0",
     "plotly.js-dist-min": "^2.34.0",
     "react": "^18.3.1",
